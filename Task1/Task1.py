@@ -20,7 +20,7 @@ class Event:
                     data = json.load(f)
                 data[self.name]["Tickets"]["StudentTicket"]["Amount"] = amount - 1
                 with open("TickersForEvent.json", "w") as f:
-                    json.dump(data, f)
+                    json.dump(data, f, indent=4)
                 ticket = StudentTicket(customer, self.name)
                 with open("ListOfTickets.json", "r", encoding="utf-8") as out:
                     ticket_data = json.load(out)
@@ -35,7 +35,7 @@ class Event:
                 ticket_data[str(ticket.id)]["Type of ticket"] = "Student"
                 ticket_data[str(ticket.id)]["Date"] = date
                 with open("ListOfTickets.json", "w") as out:
-                    json.dump(ticket_data, out)
+                    json.dump(ticket_data, out, indent=4)
                 return ticket
             else:
                 raise ValueError("Run out of tickets")
@@ -46,7 +46,7 @@ class Event:
                     data = json.load(f)
                 data[self.name]["Tickets"]["AdvanceTicket"]["Amount"] = amount - 1
                 with open("TickersForEvent.json", "w") as f:
-                    json.dump(data, f)
+                    json.dump(data, f, indent=4)
                 ticket = AdvanceTicket(customer, self.name)
                 with open("ListOfTickets.json", "r", encoding="utf-8") as out:
                     ticket_data = json.load(out)
@@ -61,7 +61,7 @@ class Event:
                 ticket_data[str(ticket.id)]["Type of ticket"] = "Advance"
                 ticket_data[str(ticket.id)]["Date"] = date
                 with open("ListOfTickets.json", "w") as out:
-                    json.dump(ticket_data, out)
+                    json.dump(ticket_data, out, indent=4)
                 return ticket
             else:
                 raise ValueError("Run out of tickets")
@@ -72,7 +72,7 @@ class Event:
                     data = json.load(f)
                 data[self.name]["Tickets"]["AdvanceTicket"]["Amount"] = amount - 1
                 with open("TickersForEvent.json", "w") as f:
-                    json.dump(data, f)
+                    json.dump(data, f, indent=4)
                 ticket = LateTicket(customer, self.name)
                 with open("ListOfTickets.json", "r", encoding="utf-8") as out:
                     ticket_data = json.load(out)
@@ -87,7 +87,7 @@ class Event:
                 ticket_data[str(ticket.id)]["Type of ticket"] = "Late"
                 ticket_data[str(ticket.id)]["Date"] = date
                 with open("ListOfTickets.json", "w") as out:
-                    json.dump(ticket_data, out)
+                    json.dump(ticket_data, out, indent=4)
                 return ticket
             else:
                 raise ValueError("Run out of tickets")
@@ -98,7 +98,7 @@ class Event:
                     data = json.load(f)
                 data[self.name]["Tickets"]["AdvanceTicket"]["Amount"] = amount - 1
                 with open("TickersForEvent.json", "w") as f:
-                    json.dump(data, f)
+                    json.dump(data, f, indent=4)
                 ticket = RegularTicket(customer, self.name)
                 with open("ListOfTickets.json", "r", encoding="utf-8") as out:
                     ticket_data = json.load(out)
@@ -113,7 +113,7 @@ class Event:
                 ticket_data[str(ticket.id)]["Type of ticket"] = "Regular"
                 ticket_data[str(ticket.id)]["Date"] = date
                 with open("ListOfTickets.json", "w") as out:
-                    json.dump(ticket_data, out)
+                    json.dump(ticket_data, out, indent=4)
                 return ticket
             else:
                 raise ValueError("Run out of tickets")

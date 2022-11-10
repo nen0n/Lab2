@@ -1,1 +1,74 @@
-{"ff7242c6-5ff5-11ed-a12e-f02f7449c3e4": {"Event": "Hallapalooza", "Name": "Yevheniy", "Surname": "Zdesenko", "Cost": 50.0, "Type of ticket": "Student", "Date": "2022-11-21"}, "ff73c85e-5ff5-11ed-b8ce-f02f7449c3e4": {"Event": "BurningMan", "Name": "Yevheniy", "Surname": "Zdesenko", "Cost": 80.0, "Type of ticket": "Student", "Date": "2023-11-12"}, "ff757505-5ff5-11ed-8a41-f02f7449c3e4": {"Event": "Hallapalooza", "Name": "Anton", "Surname": "Dzulay", "Cost": 100, "Type of ticket": "Regular", "Date": "2022-11-21"}, "11c6ba63-5ff6-11ed-9c24-f02f7449c3e4": {"Event": "Hallapalooza", "Name": "Yevheniy", "Surname": "Zdesenko", "Cost": 50.0, "Type of ticket": "Student", "Date": "2022-11-21"}, "11c88de6-5ff6-11ed-8e12-f02f7449c3e4": {"Event": "BurningMan", "Name": "Yevheniy", "Surname": "Zdesenko", "Cost": 80.0, "Type of ticket": "Student", "Date": "2023-11-12"}, "11cad63a-5ff6-11ed-8b98-f02f7449c3e4": {"Event": "Hallapalooza", "Name": "Anton", "Surname": "Dzulay", "Cost": 100, "Type of ticket": "Regular", "Date": "2022-11-21"}}
+{
+    "ff7242c6-5ff5-11ed-a12e-f02f7449c3e4": {
+        "Event": "Hallapalooza",
+        "Name": "Yevheniy",
+        "Surname": "Zdesenko",
+        "Cost": 50.0,
+        "Type of ticket": "Student",
+        "Date": "2022-11-21"
+    },
+    "ff73c85e-5ff5-11ed-b8ce-f02f7449c3e4": {
+        "Event": "BurningMan",
+        "Name": "Yevheniy",
+        "Surname": "Zdesenko",
+        "Cost": 80.0,
+        "Type of ticket": "Student",
+        "Date": "2023-11-12"
+    },
+    "ff757505-5ff5-11ed-8a41-f02f7449c3e4": {
+        "Event": "Hallapalooza",
+        "Name": "Anton",
+        "Surname": "Dzulay",
+        "Cost": 100,
+        "Type of ticket": "Regular",
+        "Date": "2022-11-21"
+    },
+    "11c6ba63-5ff6-11ed-9c24-f02f7449c3e4": {
+        "Event": "Hallapalooza",
+        "Name": "Yevheniy",
+        "Surname": "Zdesenko",
+        "Cost": 50.0,
+        "Type of ticket": "Student",
+        "Date": "2022-11-21"
+    },
+    "11c88de6-5ff6-11ed-8e12-f02f7449c3e4": {
+        "Event": "BurningMan",
+        "Name": "Yevheniy",
+        "Surname": "Zdesenko",
+        "Cost": 80.0,
+        "Type of ticket": "Student",
+        "Date": "2023-11-12"
+    },
+    "11cad63a-5ff6-11ed-8b98-f02f7449c3e4": {
+        "Event": "Hallapalooza",
+        "Name": "Anton",
+        "Surname": "Dzulay",
+        "Cost": 100,
+        "Type of ticket": "Regular",
+        "Date": "2022-11-21"
+    },
+    "8ff4f000-60d9-11ed-a738-f02f7449c3e4": {
+        "Event": "Hallapalooza",
+        "Name": "Yevheniy",
+        "Surname": "Zdesenko",
+        "Cost": 50.0,
+        "Type of ticket": "Student",
+        "Date": "2022-11-21"
+    },
+    "8ff7ad40-60d9-11ed-8f0b-f02f7449c3e4": {
+        "Event": "BurningMan",
+        "Name": "Yevheniy",
+        "Surname": "Zdesenko",
+        "Cost": 80.0,
+        "Type of ticket": "Student",
+        "Date": "2023-11-12"
+    },
+    "8ff9cecf-60d9-11ed-b614-f02f7449c3e4": {
+        "Event": "Hallapalooza",
+        "Name": "Anton",
+        "Surname": "Dzulay",
+        "Cost": 100,
+        "Type of ticket": "Regular",
+        "Date": "2022-11-21"
+    }
+}

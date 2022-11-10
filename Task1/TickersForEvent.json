@@ -1,1 +1,46 @@
-{"Hallapalooza": {"Date": "2022-11-21", "Tickets": {"Cost": 100, "RegularTicket": {"Amount": 10, "Discount": 0}, "AdvanceTicket": {"Amount": 9, "Discount": 0.4}, "StudentTicket": {"Amount": 90, "Discount": 0.5}, "LateTicket": {"Amount": 10, "Discount": 0.1}}}, "BurningMan": {"Date": "2023-11-12", "Tickets": {"Cost": 200, "RegularTicket": {"Amount": 10, "Discount": 0}, "AdvanceTicket": {"Amount": 1, "Discount": 0.3}, "StudentTicket": {"Amount": 5, "Discount": 0.6}, "LateTicket": {"Amount": 10, "Discount": 0.2}}}}
+{
+    "Hallapalooza": {
+        "Date": "2022-11-21",
+        "Tickets": {
+            "Cost": 100,
+            "RegularTicket": {
+                "Amount": 10,
+                "Discount": 0
+            },
+            "AdvanceTicket": {
+                "Amount": 9,
+                "Discount": 0.4
+            },
+            "StudentTicket": {
+                "Amount": 89,
+                "Discount": 0.5
+            },
+            "LateTicket": {
+                "Amount": 10,
+                "Discount": 0.1
+            }
+        }
+    },
+    "BurningMan": {
+        "Date": "2023-11-12",
+        "Tickets": {
+            "Cost": 200,
+            "RegularTicket": {
+                "Amount": 10,
+                "Discount": 0
+            },
+            "AdvanceTicket": {
+                "Amount": 1,
+                "Discount": 0.3
+            },
+            "StudentTicket": {
+                "Amount": 4,
+                "Discount": 0.6
+            },
+            "LateTicket": {
+                "Amount": 10,
+                "Discount": 0.2
+            }
+        }
+    }
+}
