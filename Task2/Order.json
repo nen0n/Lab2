@@ -1,0 +1,27 @@
+{
+  "0459bbfb-60c6-11ed-babb-f02f7449c3e4":
+  {
+    "1":
+    {
+     "Name": "Hawaii",
+     "Ingredients":
+     [
+      "Ham",
+      "Pineapple",
+      "Cheese",
+      "Ham",
+      "Ham"
+     ],
+    "Price": 140},
+   "2":
+    {
+     "Name": "SelfMade",
+     "Ingredients":
+     [
+      "Ham",
+      "Ham"
+     ],
+     "Price": 20
+    }
+  }
+}
