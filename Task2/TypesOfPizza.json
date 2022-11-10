@@ -1,0 +1,77 @@
+{
+ "Monday":
+ {
+   "name": "Marinara",
+   "ingredients":
+   [
+     "Tomatoes",
+     "Olive",
+     "Oregano"
+   ],
+   "price": 100
+ },
+ "Tuesday":
+ {
+  "name": "Sicilian",
+   "ingredients":
+   [
+     "Tomatoes",
+     "Mozzarella",
+     "Bazilik"
+   ],
+   "price": 80
+ },
+ "Wednesday":
+ {
+  "name": "Capricciosa",
+   "ingredients":
+   [
+     "Tomatoes",
+     "Anchoes",
+     "Parmezan"
+   ],
+   "price": 90
+ },
+ "Thursday":
+ {
+  "name": "Hawaii",
+   "ingredients":
+   [
+     "Ham",
+     "Pineapple",
+     "Cheese"
+   ],
+   "price": 120
+ },
+ "Friday":
+ {
+  "name": "Regina",
+   "ingredients":
+   [
+     "Tomatoes",
+     "Onions",
+     "Chicken"
+   ],
+   "price": 115
+ },
+ "Saturday":
+ {
+  "name": "Margherita",
+   "ingredients":
+   [
+     "Tune",
+     "Cheese"
+   ],
+   "price": 85
+ },
+ "Sunday":
+ {
+   "name": "Napolitana",
+   "ingredients":
+   [
+     "Salyami",
+     "Pepper"
+   ],
+   "price": 130
+ }
+}
